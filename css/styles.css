@@ -16,10 +16,22 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
 .header-logo-accent{
   color: #2e2f42;  
 }
-
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+}
+.container {
+width: 1158px;
+padding: 0 15px;
+}
 nav a,
 address a {
   color: #2e2f42;
@@ -51,7 +63,6 @@ address a:focus {
   display: flex;
   align-items: center;
   gap: 76px;
-
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -61,7 +72,11 @@ address a:focus {
   color: #4d5ae5;
   text-decoration: none;
 }
-
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 76px;
+}
 .header-logo-accent {
   color: #2e2f42;
 }
@@ -338,9 +353,9 @@ address a:focus {
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
               0 1px 1px rgba(46, 47, 66, 0.16),
               0 1px 6px rgba(46, 47, 66, 0.08);
-              border-radius: 4px;
-              overflow: hidden;
-              transition: transform 250ms ease, box-shadow 250ms ease;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 250ms ease, box-shadow 250ms ease;
 }
 
 .portfolio-item:hover,
