@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
-    <link rel="stylesheet" type="css" href="./css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
         <div class=" container header-container">
             <nav class="header-nav">
-                <a href="./index.html" class="logo">Web<span class="header-logo-accent">Studio</span></a>
+                <a href="./index.html" class="header-logo">Web<span class="header-logo-accent">Studio</span></a>
                 <ul class="nav-list">
                     <li>
                         <a href="./index.html"
@@ -51,7 +51,7 @@
         </section>
         <section class="strengths">
             <div class="container">
-                <h2 class="hidden">Strengts</h2>
+                <h2 class="visually-hidden">Strengts</h2>
                 <ul class="strengths-list">
                     <li class="strengths-item">
                         <h3 class="strengths-title">Strategy</h3>
@@ -81,11 +81,12 @@
             </div>
         </section>
         <section class="team">
-            <div class="team-container">
+            <div class="container team-container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./images/img.jpg"
+                        <img style="display: block;"
+                            src="./images/img.jpg"
                             alt="man with beard in shirt"
                             width="264"
                             height="260">
@@ -95,7 +96,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img1.jpg"
+                        <img <img style="display: block;"
+                            src="./images/img1.jpg"
                             alt="man is smiling in shirt"
                             width="264"
                             height="260">
@@ -105,7 +107,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img2.jpg"
+                        <img style="display: block;"
+                            src="./images/img2.jpg"
                             alt="woman with long hair in pink sweater"
                             width="264"
                             height="260">
@@ -115,7 +118,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img3.jpg"
+                        <img style="display: block;"
+                            src="./images/img3.jpg"
                             alt="man is smiling in t-shirt"
                             width="264"
                             height="260">
@@ -128,8 +132,8 @@
             </div>
         </section>
         <section class="portfolio">
-            <h2 class="portfolio-title"> Our Portfolio</h2>
             <div class="container">
+            <h2 class="portfolio-title"> Our Portfolio</h2>
                 <ul class="portfolio-filter-list">
                     <li><button type="button" class="portfolio-filter-btn">All</button></li>
                     <li><button type="button" class="portfolio-filter-btn">Web Site</button></li>
@@ -140,7 +144,8 @@
             </div>
             <ul class="portfolio-list">
                 <li class="portfolio-item">
-                    <img src="./images/img4.jpg"
+                    <img style="display: block;"
+                        src="./images/img4.jpg"
                         alt="Interface of a mobile banking application"
                         width="360"
                         height="300">
@@ -150,7 +155,8 @@
                     </div>
                 </li>
                 <li class="portfolio-item">
-                    <img src="/images/img5.jpg"
+                    <img style="display: block;"
+                        src="/images/img5.jpg"
                         alt="Contactless payment using a smartphone"
                         width="360"
                         height="300">
@@ -160,7 +166,8 @@
                     </div>
                 </li>
                 <li class="portfolio-item">
-                    <img src="/images/img6.jpg"
+                    <img style="display: block;"
+                        src="/images/img6.jpg"
                         alt="Meditation app interface on a smartphone"
                         width="360"
                         height="300">
@@ -170,7 +177,8 @@
                     </div>
                 </li>
                 <li class="portfolio-item">
-                    <img src="/images/img7.jpg"
+                    <img style="display: block;"
+                        src="/images/img7.jpg"
                         alt="Taxi service app interface with a map"
                         width="360"
                         height="300">
@@ -180,7 +188,8 @@
                     </div>
                 </li>
                 <li class="portfolio-item">
-                    <img src="/images/img8.jpg"
+                    <img style="display: block;"
+                        src="/images/img8.jpg"
                         alt="Creative illustrations"
                         width="360"
                         height="300">
@@ -190,7 +199,8 @@
                     </div>
                 </li>
                 <li class="portfolio-item">
-                    <img src="/images/img9.jpg"
+                    <img style="display: block;"
+                        src="/images/img9.jpg"
                         alt="Online courses platform interface on laptop and phone"
                         width="360"
                         height="300">
@@ -203,8 +213,8 @@
         </section>
     </main>
     <footer class="footer">
-        <div>
-            <a href="./index.html" class="logo">Web<span class="footer-logo-accent">Studio</span></a>
+        <div class="container">
+            <a href="./index.html" class="footer-logo">Web<span class="footer-logo-accent">Studio</span></a>
             <p class="footer-text">
             Increase the flow of customers and
             sales for your business with digital
