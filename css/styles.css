@@ -91,7 +91,7 @@ address a:focus {
 }
 .address-list {
     display: flex;
-    gap:
+    gap: 40px;
 }
 .address-link {
   font-size: 16px;
@@ -208,7 +208,7 @@ address a:focus {
   border-radius: 0px 0px 4px 4px;
 }
 .team-item-container {
-    padding: 32px 0;
+  padding: 32px 0;
 }
 .team-item-title {
   font-size: 20px;
@@ -262,25 +262,11 @@ address a:focus {
     
 }
 
-.portfolio-filter-list,
-.portfolio-list {
-  list-style: none;
-}
-
-.portfolio-filter-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-}
-
-.portfolio-filter-btn:hover,
-.portfolio-filter-btn:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+.portfolio-item-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-item {
