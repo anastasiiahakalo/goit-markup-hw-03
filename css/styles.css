@@ -279,6 +279,7 @@ address a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -293,7 +294,7 @@ address a:focus {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.logo {
+.logo-link {
     display: inline-block;
     margin-bottom: 16px;
 }
