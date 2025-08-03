@@ -16,6 +16,10 @@ a {
 img {
   display: block;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -41,9 +45,8 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-.header-container{
-    display: flex;
+.header-container {
+  display: flex;
 }
 /* Navigation */
 .header-nav {
@@ -54,14 +57,6 @@ img {
     margin-right: 76px;
 }
 
-nav a {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-}
 
 nav a:hover,
 nav a:focus,
@@ -77,6 +72,7 @@ address a:focus {
 
 
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -97,7 +93,11 @@ address a:focus {
 
 /* Контакти */
 .address {
+  display: block;
+  margin-left: auto;
   font-style: normal;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .address-list,
@@ -115,6 +115,8 @@ address a:focus {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 /* Hero section */
@@ -131,9 +133,11 @@ address a:focus {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto 0 auto;
 }
 
 .hero-button {
+  
     display: block;
     min-width: 169px;
     height: 56px;
@@ -147,6 +151,10 @@ address a:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 56px;
+  
 }
 
 .hero-button:hover,
@@ -203,7 +211,6 @@ address a:focus {
 }
 
 .team-title {
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -211,6 +218,7 @@ address a:focus {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-list {
@@ -267,10 +275,6 @@ address a:focus {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
 }
 
 .portfolio-item{
@@ -283,7 +287,6 @@ address a:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-item {
@@ -311,6 +314,9 @@ address a:focus {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-container{
+  padding-left: 120px;
+}
 .logo-link {
     display: inline-block;
     margin-bottom: 16px;
@@ -334,4 +340,5 @@ address a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
